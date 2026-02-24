@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">control_lesson1</string>
+    <string name="header_image">Header image</string>
+    <string name="name_label">Name:</string>
+    <string name="name_value">Tony Stark</string>
+    <string name="org_label">Organisation:</string>
+    <string name="org_value">Mirea</string>
+    <string name="call">Call</string>
+    <string name="phone_value">+7 (911)111-11-11</string>
+    <string name="phone_type">(Mobile)</string>
+    <string name="save">SAVE</string>
+</resources>

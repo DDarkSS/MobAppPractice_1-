@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/main"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/etPlainText"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="New life for mirea activity!" />
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Первая кнопка"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Вторая кнопка" />
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Третья кнопка" />
+
+    <Button
+        android:id="@+id/btn4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Четвёртая кнопка" />
+
+    <Button
+        android:id="@+id/btn5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Пятая кнопка" />
+
+    <Button
+        android:id="@+id/btn6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Шестая кнопка" />
+
+</LinearLayout>
