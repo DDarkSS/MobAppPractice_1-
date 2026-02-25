@@ -25,3 +25,4 @@ dependencyResolutionManagement {
 rootProject.name = "MyFirstProject"
 include(":app")
 include(":control_lesson1")
+include(":buttonclicker")
