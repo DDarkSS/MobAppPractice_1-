@@ -41,10 +41,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void onMyButtonClick(View view) {
-        TextView tv = findViewById(R.id.tvOut);
-        CheckBox cb = findViewById(R.id.checkBox);
-
-        tv.setText("Это не я!");
-        cb.toggle();
+        tvOut.setText("Это не я!");
+        checkBox.toggle();
     }
 }
