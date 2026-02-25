@@ -34,10 +34,14 @@ public class MainActivity extends AppCompatActivity {
         btnWhoAmI = findViewById(R.id.btnWhoAmI);
         checkBox = findViewById(R.id.checkBox);
 
-        btnWhoAmI.setOnClickListener(v -> {
-            tvOut.setText("Мой номер по списку № X");
-            checkBox.toggle();
-        });
+        View.OnClickListener oclBtnWhoAmI = new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                tvOut.setText("Мой номер по списку № Х");
+                checkBox.toggle();
+            }
+        };
+        btnWhoAmI.setOnClickListener(oclBtnWhoAmI);
     }
 
     public void onMyButtonClick(View view) {
